@@ -1,6 +1,7 @@
 // Code Keypad Component Here
+import React from 'react';
 
-function Keypad() {
+export default function Keypad() {
   function handleChange(e) {
     console.log('Entering password...');
   }
@@ -13,5 +14,3 @@ function Keypad() {
     />
   );
 }
-
-export default Keypad;
